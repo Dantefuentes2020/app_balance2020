@@ -32,7 +32,7 @@
         android:layout_width="177dp"
         android:layout_height="57dp"
         android:background="@drawable/boton"
-        android:gravity="center_horizontal"
+        android:gravity="center_horizontal|center_vertical"
         android:text="Me interesa!"
         tools:layout_editor_absoluteX="118dp"
         tools:layout_editor_absoluteY="542dp" />
