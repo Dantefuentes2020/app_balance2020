@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">principal</string>
+
+    <string name="Info">Nos alegra mucho verte aqui!</string>
+    <string name="Info1">estamos aqui para ayudarte y construir una mejor version de ti mismo, nos alegra que estes con nosotros!</string>
+
 </resources>

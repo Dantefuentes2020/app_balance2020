@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/NIVELES">
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/homeAsUpIndicator"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="655dp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="189dp"
+        android:layout_height="57dp"
+        android:text="Ansiedad"
+        android:textColor="#2F90DD"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="494dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="239dp"
+        android:layout_height="73dp"
+        android:text="Mis niveles son:"
+        android:textColor="#00A5E6"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="75dp"
+        tools:layout_editor_absoluteY="63dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="190dp"
+        android:layout_height="77dp"
+        android:background="@drawable/boton"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="283dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar2"
+        android:layout_width="190dp"
+        android:layout_height="77dp"
+        android:background="@drawable/boton"
+        tools:layout_editor_absoluteX="99dp"
+        tools:layout_editor_absoluteY="417dp" />
+
+    <SeekBar
+        android:id="@+id/seekBar3"
+        android:layout_width="190dp"
+        android:layout_height="77dp"
+        android:background="@drawable/boton"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="551dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="189dp"
+        android:layout_height="57dp"
+        android:text="Energia"
+        android:textColor="#2F90DD"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="226dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="189dp"
+        android:layout_height="57dp"
+        android:text="Estres"
+        android:textColor="#2F90DD"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="100dp"
+        tools:layout_editor_absoluteY="360dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

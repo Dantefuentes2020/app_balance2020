@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/b9be837132b94f8636cf61696b116e04">
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="164dp"
+        android:layout_height="163dp"
+        android:background="@drawable/juego3"
+        tools:layout_editor_absoluteX="231dp"
+        tools:layout_editor_absoluteY="51dp" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="178dp"
+        android:layout_height="172dp"
+        android:background="@drawable/juego1"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="42dp" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="174dp"
+        android:layout_height="173dp"
+        android:background="@drawable/juego2"
+        tools:layout_editor_absoluteX="209dp"
+        tools:layout_editor_absoluteY="279dp" />
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="170dp"
+        android:layout_height="163dp"
+        android:background="@drawable/juego4"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="270dp" />
+
+    <Button
+        android:id="@+id/button18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/homeAsUpIndicator"
+        tools:layout_editor_absoluteX="67dp"
+        tools:layout_editor_absoluteY="646dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

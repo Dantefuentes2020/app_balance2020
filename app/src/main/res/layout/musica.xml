@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#A5BA8C">
+
+    <Button
+        android:id="@+id/button24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/homeAsUpIndicator"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="646dp" />
+
+    <Button
+        android:id="@+id/button16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/ic_media_play"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="297dp" />
+
+    <Button
+        android:id="@+id/button17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/ic_media_ff"
+        tools:layout_editor_absoluteX="274dp"
+        tools:layout_editor_absoluteY="297dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="293dp"
+        android:layout_height="95dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="MP3 Player encuentra tu espacio de alegria!"
+        android:textSize="24sp"
+        android:textStyle="normal|bold|italic"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="386dp" />
+
+    <Button
+        android:id="@+id/button19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/ic_media_pause"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="297dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="332dp"
+        android:layout_height="39dp"
+        android:background="#0B0B0B"
+        android:text="Track 01"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="243dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

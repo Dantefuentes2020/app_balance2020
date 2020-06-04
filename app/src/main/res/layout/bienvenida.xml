@@ -9,29 +9,30 @@
 
     <Button
         android:id="@+id/siguiente"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="152dp"
+        android:layout_height="69dp"
         android:background="#00FFFFFF"
         android:shadowColor="#00FFFFFF"
         android:text="Siguiente"
-        tools:layout_editor_absoluteX="273dp"
-        tools:layout_editor_absoluteY="555dp" />
+        tools:layout_editor_absoluteX="243dp"
+        tools:layout_editor_absoluteY="646dp" />
 
     <TextView
         android:id="@+id/titulo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="145dp"
+        android:layout_height="67dp"
         android:fontFamily="sans-serif-black"
         android:text="¡Hola!"
-        android:textSize="24sp"
+        android:textSize="30sp"
         tools:layout_editor_absoluteX="173dp"
         tools:layout_editor_absoluteY="126dp" />
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="340dp"
-        android:layout_height="41dp"
+        android:layout_width="351dp"
+        android:layout_height="153dp"
         android:text="¿Estás buscando realizar tus actividades diarias  y no te animas?"
+        android:textSize="30sp"
         tools:layout_editor_absoluteX="35dp"
         tools:layout_editor_absoluteY="218dp" />
 
@@ -41,14 +42,24 @@
         android:layout_height="wrap_content"
         android:fontFamily="sans-serif-black"
         android:text="¡Nosotros tenemos la solución!"
-        tools:layout_editor_absoluteX="106dp"
-        tools:layout_editor_absoluteY="289dp" />
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="389dp" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="¡Cuéntanos tus intereses y actividades favoritas!"
-        tools:layout_editor_absoluteX="54dp"
-        tools:layout_editor_absoluteY="356dp" />
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="421dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="250dp"
+        android:layout_height="278dp"
+        android:src="@drawable/balance"
+        tools:layout_editor_absoluteX="97dp"
+        tools:layout_editor_absoluteY="421dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

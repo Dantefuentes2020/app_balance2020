@@ -4,30 +4,36 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/menufondo"
     tools:context=".acerca_de_la_app">
 
     <TextView
         android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="112dp"
-        tools:layout_editor_absoluteY="78dp" />
+        android:layout_width="275dp"
+        android:layout_height="72dp"
+        android:gravity="clip_vertical|center_horizontal"
+        android:text="@string/Info"
+        tools:layout_editor_absoluteX="48dp"
+        tools:layout_editor_absoluteY="60dp" />
 
     <TextView
         android:id="@+id/textView8"
-        android:layout_width="252dp"
-        android:layout_height="111dp"
+        android:layout_width="355dp"
+        android:layout_height="270dp"
+        android:gravity="center_horizontal|center_vertical"
         android:text="TextView"
-        tools:layout_editor_absoluteX="76dp"
-        tools:layout_editor_absoluteY="168dp" />
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="21dp"
+        tools:layout_editor_absoluteY="146dp"
+        tools:text="@string/Info1" />
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="196dp"
-        android:layout_height="100dp"
+        android:layout_width="177dp"
+        android:layout_height="57dp"
         android:background="@drawable/boton"
-        android:text="Button"
-        tools:layout_editor_absoluteX="112dp"
-        tools:layout_editor_absoluteY="478dp" />
+        android:gravity="center_horizontal"
+        android:text="Me interesa!"
+        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteY="542dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

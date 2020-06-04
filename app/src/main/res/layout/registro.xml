@@ -7,6 +7,14 @@
     android:background="#039BE5"
     tools:context=".registro">
 
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/homeAsUpIndicator"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="567dp" />
+
     <EditText
         android:id="@+id/ePassword"
         android:layout_width="250dp"
@@ -84,7 +92,7 @@
         android:text="Aceptar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <EditText

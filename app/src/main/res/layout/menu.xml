@@ -6,6 +6,14 @@
     android:background="@drawable/menufondo">
 
     <Button
+        android:id="@+id/button22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="?attr/homeAsUpIndicator"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="650dp" />
+
+    <Button
         android:id="@+id/button10"
         android:layout_width="127dp"
         android:layout_height="112dp"

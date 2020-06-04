@@ -4,15 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#8C9EFF"
-    tools:context=".MainActivity" >
+    android:background="#5C6ECD"
+    tools:context=".MainActivity">
 
     <Button
         android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/boton"
         android:text="Enviar"
-        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteX="238dp"
         tools:layout_editor_absoluteY="447dp" />
 
     <TextView
@@ -29,30 +30,34 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="347dp"
-        android:layout_height="50dp"
+        android:layout_width="346dp"
+        android:layout_height="153dp"
+        android:gravity="center_horizontal|center_vertical"
         android:text="Tu opinión es muy importante para nosotros. ¿Nos ayudas a mejorar y crecer? ¡Sólo te tomará unos segundos!"
         android:textColor="#FFFFFF"
         android:textColorHighlight="#FFFFFF"
-        android:textSize="14sp"
+        android:textSize="24sp"
         tools:layout_editor_absoluteX="32dp"
-        tools:layout_editor_absoluteY="166dp" />
+        tools:layout_editor_absoluteY="134dp" />
 
     <EditText
         android:id="@+id/editText"
-        android:layout_width="329dp"
-        android:layout_height="117dp"
+        android:layout_width="332dp"
+        android:layout_height="155dp"
+        android:autoText="false"
+        android:background="#7381CF"
         android:ems="10"
         android:gravity="start|top"
         android:inputType="textMultiLine"
-        tools:layout_editor_absoluteX="40dp"
-        tools:layout_editor_absoluteY="254dp" />
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="282dp" />
 
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:background="@drawable/boton"
         android:text="Cancelar"
-        tools:layout_editor_absoluteX="118dp"
+        tools:layout_editor_absoluteX="88dp"
         tools:layout_editor_absoluteY="447dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
