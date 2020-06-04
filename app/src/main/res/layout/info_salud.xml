@@ -49,8 +49,8 @@
 
     <EditText
         android:id="@+id/editTextNumber"
-        android:layout_width="139dp"
-        android:layout_height="73dp"
+        android:layout_width="151dp"
+        android:layout_height="107dp"
         android:background="#C7D5B8"
         android:ems="10"
         android:inputType="number"
