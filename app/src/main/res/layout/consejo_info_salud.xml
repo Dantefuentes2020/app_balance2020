@@ -33,8 +33,8 @@
 
     <TextView
         android:id="@+id/textView23"
-        android:layout_width="268dp"
-        android:layout_height="90dp"
+        android:layout_width="287dp"
+        android:layout_height="123dp"
         android:text="Sigue nuestros consejos!"
         android:textSize="24sp"
         android:textStyle="bold|italic"
