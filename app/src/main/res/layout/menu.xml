@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menufondo">
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="127dp"
+        android:layout_height="112dp"
+        android:background="@drawable/icon5"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="482dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="129dp"
+        android:layout_height="117dp"
+        android:background="@drawable/icon1"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="101dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="142dp"
+        android:layout_height="115dp"
+        android:background="@drawable/icon2"
+        tools:layout_editor_absoluteX="230dp"
+        tools:layout_editor_absoluteY="101dp" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="127dp"
+        android:layout_height="127dp"
+        android:background="@drawable/icon3"
+        tools:layout_editor_absoluteX="39dp"
+        tools:layout_editor_absoluteY="266dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="160dp"
+        android:layout_height="128dp"
+        android:background="@drawable/icon4"
+        tools:layout_editor_absoluteX="213dp"
+        tools:layout_editor_absoluteY="268dp" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="146dp"
+        android:layout_height="121dp"
+        android:background="@drawable/icon6"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="473dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
